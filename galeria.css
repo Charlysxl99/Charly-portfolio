@@ -1,0 +1,175 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html body{
+padding: 0px;
+margin: 0px;
+font-size: 12px;
+font-family: 'Open Sans', sans-serif;
+background-color: red;
+
+}
+
+nav{
+
+   background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+    
+
+
+button{
+  border: 0;
+}
+
+
+.nav-conteiner{
+  width: 1000px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_conteiner{
+  display:flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  background-image: url(/Images/icono2020.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+ol{
+  
+  display: flex;
+  margin: 15px;
+  
+
+}
+li{
+  margin-left: 15px;
+  list-style: none;
+}
+
+
+nav a{
+  display: flex;
+  text-decoration: none;
+  color: floralwhite;
+  font-size: 20px;
+
+}
+
+nav a:hover{
+
+  border-bottom: 2px solid red;
+}
+
+.hero{
+  background-color:red;
+  height:100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero_text{
+  color: white;
+}
+
+
+/* ------------- comienza galeria nueva */
+
+
+.portfolio_conteiner{
+  height: 100%;
+ 
+}
+.portfolio_title{
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  color:rgb(255, 255, 255);
+  
+}
+
+.portfolio_title h3{
+ text-shadow: black 1px solid;
+}
+
+.portfolio-ej-conteiner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  height: 100%;
+  margin: 15px;
+}
+
+
+.web_conteiner{
+margin: 15px;
+width: 50vh;
+flex-shrink: 0;
+box-shadow: 8px 8px 8px 0px #000000a3;
+background-color: rgb(233, 233, 233);
+border-radius: 10px;
+overflow: hidden;
+}
+.web_conteiner img{
+  height: 40vh;
+  border-radius: 10%;
+  padding: 20px;
+  width: 35vh;
+}
+
+.portfolio-conteiners{
+margin: 10px;
+
+}
+
+.portfolio-head-txt{
+  text-align: center;
+}
+
+.portfolio-text-in-box{
+  margin: 15px;
+  
+  background-color: rgb(255, 255, 255);
+ background-size: 100%;
+}
+
+.main_button{
+  background-color:rgb(0, 0, 0);
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color:white;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.main_button:hover{
+  background-color: rgba(160, 196, 184, 0.877);
+}
+
+.tresd_conteiner{
+border: var(--border_color);
+}
+.mic_conteiner{
+  border: var(--border_color);
+}
